@@ -51,8 +51,8 @@
       "position": "Senior Venture Partner",
       "startDate": "Sep 2021",
       "endDate": "",
-      "highlights": ["SVP Jun '22.\nSVP Visiting Jan '22\nVP. Sep '21"],
-      "summary": "Lead investment analysis and engagement management for tens of companies per year.",
+      "highlights": [],
+      "summary": "SVP, Jun '22\nSVP Visiting, Jan '22\nVP, Sep '21",
       "url": "https://www.linkedin.com/company/pioneerfund/",
       "location": "Slack"
     },
@@ -94,8 +94,8 @@
   "education": [
     {
       "institution": "City College of San Francisco",
-      "studyType": "TA for Data Structures C++, Programming Fundamentals C++; CS Department Tutor",
-      "area": "Coursework towards Computer Science AS",
+      "area": "TA for Data Structures C++, Programming Fundamentals C++; CS Department TutorTA",
+      "studyType": "Coursework based on Computer Science AS",
       "startDate": "",
       "endDate": "2022",
       "score": "",
@@ -103,11 +103,30 @@
     },
     {
       "institution": "University of Pennsylvania",
-      "studyType": "Economics",
-      "area": "Bachelor of Arts - BA",
+      "area": "Economics",
+      "studyType": "Bachelor of Arts - BA",
       "startDate": "",
       "endDate": "2002",
-      "score": ""
+      "score": "",
+      "courses": ["Tennis Team", "Ski Team"]
+    },
+    {
+      "institution": "International Christian University",
+      "area": "ICU is known for exceptional teaching of languages.",
+      "studyType": "Undergraduate Study Abroad",
+      "startDate": "2001",
+      "endDate": "2001",
+      "score": "",
+      "courses": []
+    },
+    {
+      "institution": "University of California, San Diego - Rady School of Management",
+      "area": "Elected head of student body. Won competion hosted by MIT student club, supply chain competition with 200+ international teams from top institutions.",
+      "studyType": "Master of Business Administration - MBA",
+      "startDate": "",
+      "endDate": "2012",
+      "score": "",
+      "courses": ["Rady Fellowship"]
     }
   ],
   "awards": [

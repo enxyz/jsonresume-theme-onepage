@@ -4,15 +4,15 @@ A compact theme for JSON Resume, designed for printing.
 
 Tries to fit as much information as possible onto a single page without making sections look cluttered.
 
-## Running
+## Usage
 
-1. Run local server:
+1. Edit with local server (note that restart needed for changes to `resume.hbs`):
+
     ```
-    yarn global add resume-cli
-    resume serve
+    resume serve --theme .
     ```
 
-1. Print directly from the served html.
+1. Export file. See https://github.com/jsonresume/resume-cli#resume-export-filename
 
 ## Options
 
@@ -45,3 +45,11 @@ For the "experience" and "skills" sections, you can optionally replace the "high
 Community Chrome extension to import your LinkedIn Profile.
 
 https://chrome.google.com/webstore/detail/json-resume-exporter/caobgmmcpklomkcckaenhjlokpmfbdec/related
+
+## Setup
+
+Insall cli:
+
+```sh
+yarn global add resume-cli
+```
