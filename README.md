@@ -10,15 +10,23 @@ http://themes.jsonresume.org/theme/onepage
 
 ## Running
 
-```
-sudo npm install -g resume-cli
-git clone https://github.com/ainsleyc/jsonresume-theme-onepage.git
-cd jsonresume-theme-onepage
-resume serve
-```
-You can print directly from the served html.
+1. Run local server:
+    ```
+    yarn global add resume-cli
+    resume serve
+    ```
+
+1. Print directly from the served html.
 
 ## Options
+
+### Themes
+
+Or you can set the default theme for your resume on the registry by using the --theme option in the CLI tool e.g.
+
+`resume publish --theme flat`
+
+### Sections
 
 For the "experience" and "skills" sections, you can optionally replace the "highlights" list with a "details" list with this format:
 
