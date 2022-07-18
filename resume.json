@@ -1,115 +1,316 @@
 {
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
-    "name": "Richard Hendricks",
-    "label": "Programmer",
-    "picture": "",
-    "email": "richard.hendricks@gmail.com",
-    "phone": "(912) 555-4321",
-    "website": "http://richardhendricks.com",
-    "summary": "Richard hails from Tulsa. He has earned degrees from the University of Oklahoma and Stanford. (Go Sooners and Cardinals!) Before starting Pied Piper, he worked for Hooli as a part time software developer. While his work focuses on applied information theory, mostly optimizing lossless compression schema of both the length-limited and adaptive variants, his non-work interests range widely, everything from quantum computing to chaos theory. He could tell you about it, but THAT would NOT be a “length-limited” conversation!",
+    "name": "Eric  Norman",
+    "label": "Exploring the future",
+    "image": "",
+    "email": "eric@norman.zone",
+    "phone": "",
+    "url": "http://github.com/enxyz/",
+    "summary": "Focused on Web3 and using technology to connect and empower humanity.\n",
     "location": {
-      "city": "San Francisco",
-      "countryCode": "US"
+      "countryCode": "US",
+      "address": "San Francisco, California, United States"
     },
     "profiles": [
       {
-        "url": "http://twitter.com/neutralthoughts"
+        "network": "LinkedIn",
+        "username": "enorm",
+        "url": "https://www.linkedin.com/in/enorm/"
       },
       {
-        "url": "https://soundcloud.com/dandymusicnl"
+        "network": "Github",
+        "username": "enxyz",
+        "url": "https://github.com/enxyz/"
+      },
+      {
+        "network": "Twitter",
+        "username": "enxeth",
+        "url": "https://twitter.com/enxeth"
       }
     ]
   },
   "work": [
     {
-      "company": "Pied Piper",
-      "position": "CEO/President",
-      "website": "http://piedpiper.com",
-      "startDate": "2013",
-      "endDate": "2014",
-      "summary": "Pied Piper is a multi-platform technology based on a proprietary universal compression algorithm that has consistently fielded high Weisman Scores™ that are not merely competitive, but approach the theoretical limit of lossless compression.",
-      "details": [
-        { "text": "Build an algorithm for artist to detect if their music was violating copy right infringement laws", "comment": "Java" },
-        { "text": "Optimized an algorithm that holds the current world record for Weisman Scores", "comment": "c++" },
-        { "text": "Successfully won Techcrunch Disrupt" }
-      ]
-    }
-  ],
-  "volunteer": [
-    {
-      "organization": "CoderDojo",
-      "position": "Teacher",
-      "website": "http://coderdojo.com/",
-      "startDate": "2012",
-      "endDate": "2013",
-      "summary": "Global movement of free coding clubs for young people.",
+      "name": "Eric Norman",
+      "position": "Product Engineer",
+      "startDate": "2018",
+      "endDate": "",
       "highlights": [
-        "Awarded 'Teacher of the Month'"
-      ]
+        "- Smart contract work (Solidity) for Passport by Orange DAO Membership NFT. Design access-controlled ERC-721 non-transferrable token, deploy. Modify to allow for remote, autonomous deployment via API call. 3 month project, team of 6: front end, back end, smart contract, design, ux, pm. Deployed with customers.",
+        "- Mechatronics for precision measuring device. Given initial idea, develop product roadmap, electronics component selection and build, C++ firmware, python control and visualization module, basic GUI. Used weekly, under active development.",
+        "- Smart device app and electronics architecture and componenet selection. Create react native app, background processing and notifications, MCU selection and firmware specs. Under active development.",
+        "- Create system to analyze messaging in Slack workspace. Initial ideation, all Javascript. Under active development."
+      ],
+      "summary": "Early product design / prototyping; Python, JavaScript, React(Native), NodeJS, C++, Firmware, EE component selection, Bootstrap, Arduino, Encoders, motors",
+      "url": "",
+      "location": "San Francisco, California, United States"
+    },
+    {
+      "name": "Pioneer Fund",
+      "position": "Senior Venture Partner",
+      "startDate": "Sep 2021",
+      "endDate": "",
+      "highlights": [],
+      "summary": "SVP, Jun '22\nSVP Visiting, Jan '22\nVP, Sep '21",
+      "url": "https://www.linkedin.com/company/pioneerfund/",
+      "location": "Slack"
+    },
+    {
+      "name": "Cinder Precision Cooker",
+      "position": "Founder, CEO",
+      "startDate": "June 2012",
+      "endDate": "2017-12-31",
+      "highlights": [
+        "- Initial ideation and hardware prototyping. Early firmware including temperature control system. Design initial device and app interface. Factory selection. Manage R&D process, customer development.",
+        "- 3 Patents issued.",
+        "- Y Combinator W'15",
+        "- Acquired."
+      ],
+      "summary": "Acquired\nYC W15",
+      "url": "https://www.linkedin.com/company/palate-home/",
+      "location": "San Francisco Bay Area"
+    },
+    {
+      "name": "Bridge Bank",
+      "position": "Tech Banking Credit Analyst",
+      "startDate": "2008",
+      "endDate": "May 2010",
+      "highlights": [],
+      "url": "https://www.linkedin.com/company/bridge-bank/",
+      "location": "Silicon Valley, California, United States"
+    },
+    {
+      "name": "Toyota Motor Corporation",
+      "position": "New Product Development Specialist（新車進攻管理部正社員）",
+      "startDate": "2003-12-31",
+      "endDate": "2007-12-31",
+      "highlights": [],
+      "url": "https://www.linkedin.com/company/toyota/",
+      "location": "Toyota, Aichi, Japan"
     }
   ],
+  "volunteer": [],
   "education": [
     {
-      "institution": "University of Oklahoma",
-      "area": "Information Technology",
-      "studyType": "Bachelor",
-      "startDate": "2011",
-      "endDate": "2014",
-      "gpa": "4.0",
-      "courses": [
-        "DB1101 - Basic SQL",
-        "CS2011 - Java Introduction"
-      ]
+      "institution": "City College of San Francisco",
+      "area": "TA for Data Structures C++, Programming Fundamentals C++; CS Department TutorTA",
+      "studyType": "Coursework based on Computer Science AS",
+      "startDate": "",
+      "endDate": "2022",
+      "score": "",
+      "courses": []
+    },
+    {
+      "institution": "University of Pennsylvania",
+      "area": "Economics",
+      "studyType": "Bachelor of Arts - BA",
+      "startDate": "",
+      "endDate": "2002",
+      "score": "",
+      "courses": ["Tennis Team", "Ski Team"]
+    },
+    {
+      "institution": "International Christian University",
+      "area": "ICU is known for exceptional teaching of languages.",
+      "studyType": "Undergraduate Study Abroad",
+      "startDate": "2001",
+      "endDate": "2001",
+      "score": "",
+      "courses": []
+    },
+    {
+      "institution": "University of California, San Diego - Rady School of Management",
+      "area": "Elected head of student body. Won competion hosted by MIT student club, supply chain competition with 200+ international teams from top institutions.",
+      "studyType": "Master of Business Administration - MBA",
+      "startDate": "",
+      "endDate": "2012",
+      "score": "",
+      "courses": ["Rady Fellowship"]
     }
   ],
   "awards": [
+  ],
+  "certificates": [
     {
-      "title": "Digital Compression Pioneer Award",
-      "date": "2014",
-      "awarder": "Techcrunch",
-      "summary": "There is no spoon."
+      "name": "Project Management Professional (PMP)",
+      "issuer": "Project Management Institute",
+      "endDate": "2011-08-31",
+      "startDate": "2008-08-31"
     }
   ],
-  "publications": [
-    {
-      "name": "Video compression for 3d media",
-      "publisher": "Hooli",
-      "releaseDate": "2014",
-      "website": "http://en.wikipedia.org/wiki/Silicon_Valley_(TV_series)",
-      "summary": "Innovative middle-out compression algorithm that changes the way we store data."
-    }
-  ],
+  "publications": [],
   "skills": [
     {
-      "name": "Web Development",
-      "details": [
-        { "text": "HTML", "comment": "expert" },
-        { "text": "CSS", "comment": "expert" },
-        { "text": "Javascript", "comment": "expert" }
-      ]
+      "name": "Kaizen",
+      "level": "",
+      "keywords": []
     },
     {
-      "name": "Compression",
-      "details": [
-        { "text": "Mpeg", "comment": "competent" },
-        { "text": "MP4", "comment": "competent" },
-        { "text": "GIF", "comment": "novice" }
-      ]
+      "name": "Process Improvement",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Financial Process Improvement",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Project Planning",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Temperature Sensors",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "JavaScript",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Engineering Management",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Financial Analysis",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Futures Studies",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "New Business Development",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Financial Statement Analysis",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "High Temperature Materials",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Shell Scripting",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "C++",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Science",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Product Development",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Angel Investing",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Electrical Engineering",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Start-ups",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Research and Development (R&D)",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Project Management",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Swift (Programming Language)",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Japanese Language Proficiency Test",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Mechanical Product Design",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Python (Programming Language)",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Early-stage Startups",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Lean Manufacturing",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Credit Analysis",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Concept Development",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Risk Analysis",
+      "level": "",
+      "keywords": []
     }
   ],
   "languages": [
     {
       "language": "English",
-      "fluency": "Native speaker"
+      "fluency": "Native Speaker"
+    },
+    {
+      "fluency": "Elementary",
+      "language": "French"
+    },
+    {
+      "fluency": "Full Professional",
+      "language": "Japanese"
     }
   ],
-  "interests": [
-    {
-      "name": "Wildlife",
-      "keywords": [
-        "Ferrets",
-        "Unicorns"
-      ]
-    }
-  ]
+  "interests": [],
+  "references": [],
+  "projects": [],
+  "meta": {
+    "version": "v1.0.0",
+    "canonical": "https://github.com/jsonresume/resume-schema/blob/v1.0.0/schema.json"
+  }
 }

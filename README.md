@@ -4,10 +4,6 @@ A compact theme for JSON Resume, designed for printing.
 
 Tries to fit as much information as possible onto a single page without making sections look cluttered.
 
-## Example
-
-http://themes.jsonresume.org/theme/onepage
-
 ## Running
 
 1. Run local server:
@@ -20,13 +16,18 @@ http://themes.jsonresume.org/theme/onepage
 
 ## Options
 
-### Themes
+## Themes
 
-Or you can set the default theme for your resume on the registry by using the --theme option in the CLI tool e.g.
+Or you can set the default theme for your resume on the registry by using the --theme option in the CLI tool e.g. Anything on this page can be called with an option: https://jsonresume.org/themes/
 
 `resume publish --theme flat`
 
-### Sections
+Recommended themes:
+- Software: https://themes.jsonresume.org/theme/spartan
+- Traditional: https://themes.jsonresume.org/theme/onepage
+- https://themes.jsonresume.org/theme/class
+
+## Sections
 
 For the "experience" and "skills" sections, you can optionally replace the "highlights" list with a "details" list with this format:
 
@@ -39,5 +40,8 @@ For the "experience" and "skills" sections, you can optionally replace the "high
 ]
 ```
 
-See included resume.json for more details.
+## Creating
 
+Community Chrome extension to import your LinkedIn Profile.
+
+https://chrome.google.com/webstore/detail/json-resume-exporter/caobgmmcpklomkcckaenhjlokpmfbdec/related
