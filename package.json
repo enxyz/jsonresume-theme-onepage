@@ -17,5 +17,7 @@
   },
   "homepage": "https://github.com/ainsleychong/jsonresume-theme-onepage",
   "main": "index.js",
-  "devDependencies": {}
+  "devDependencies": {
+    "moment": "^2.29.4"
+  }
 }
