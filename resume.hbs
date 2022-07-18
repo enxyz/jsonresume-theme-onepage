@@ -47,24 +47,14 @@
                   {{address}},
                 </span>
               {{/if}}
-              {{#if postalCode}}
-                <span class="postalCode">
-                  {{postalCode}},
-                </span>
-              {{/if}}
               {{#if city}}
                 <span class="city">
-                  {{city}}
+                  {{city}},
                 </span>
               {{/if}}
-              {{#if countryCode}}
-                <span class="countryCode">
-                  ({{countryCode}}),
-                </span>
-              {{/if}}
-              {{#if region}}
-                <span class="region">
-                  {{region}}
+              {{#if state}}
+                <span class="state">
+                  {{state}}
                 </span>
               {{/if}}
             </div>
@@ -133,41 +123,40 @@
           <h2 class="section-title">Experience</h2>
           <section id="work">
             {{#each resume.work}}
-              {{#if company}}
-                <header>
-                  <div class="date">
-                    {{#if startDate}}
-                      <span class="startDate">
-                        {{MY startDate}}∏
-                      </span>
-                    {{/if}}
-                    {{#if endDate}}
-                      <span class="endDate">
-                        -
-                        {{MY endDate}}
-                      </span>
-                    {{else}}
-                      <span class="endDate">
-                        - Present
-                      </span>
-                    {{/if}}
-                  </div>
-                </header>
-              {{/if}}
-              <div class="item">
+              <header>
                 {{#if name}}
-                  <h3 class="name2">
+                  <h3 class="name">
                     {{name}}
                   </h3>
                 {{/if}}
+                <div class="date">
+                  {{#if startDate}}
+                    <span class="startDate">
+                      {{Y startDate}}
+                    </span>
+                  {{/if}}
+                  {{#if endDate}}
+                    <span class="endDate">
+                      -
+                      {{Y endDate}}
+                    </span>
+                  {{else}}
+                    <span class="endDate">
+                      - Present
+                    </span>
+                  {{/if}}
+                </div>
+              </header>
+              <div class="item">
+
                 {{#if position}}
                   <div class="position">
                     {{position}}
                   </div>
                 {{/if}}
-                {{#if website}}
-                  <div class="website">
-                    <a href="{{website}}">{{website}}</a>
+                {{#if url}}
+                  <div class="url">
+                    <a href="{{url}}">{{url}}</a>
                   </div>
                 {{/if}}
                 {{#if summary}}
@@ -178,7 +167,7 @@
                 {{#if highlights.length}}
                   <ul class="highlights">
                     {{#each highlights}}
-                      <li>{{highlights}}</li>
+                      <li>{{this}}</li>
                     {{/each}}
                   </ul>
                 {{/if}}
@@ -203,11 +192,11 @@
                   {{#if startDate}}
                     <span class="startDate">
                       {{Y startDate}}
+                      -
                     </span>
                   {{/if}}
                   {{#if endDate}}
                     <span class="endDate">
-                      -
                       {{Y endDate}}
                     </span>
                   {{else}}
@@ -237,7 +226,7 @@
                 {{#if courses.length}}
                   <ul class="courses">
                     {{#each courses}}
-                      <li>{{courses}}</li>
+                      <li>{{this}}</li>
                     {{/each}}
                   </ul>
                 {{/if}}
@@ -396,7 +385,7 @@
                 {{#if keywords.length}}
                   <ul class="keywords">
                     {{#each keywords}}
-                      <li>{{keywords}}</li>
+                      <li>{{keyword}}</li>
                     {{/each}}
                   </ul>
                 {{/if}}

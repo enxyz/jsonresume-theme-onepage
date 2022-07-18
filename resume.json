@@ -7,10 +7,11 @@
     "email": "eric@norman.zone",
     "phone": "",
     "url": "http://github.com/enxyz/",
-    "summary": "Focused on Web3 and using technology to connect and empower humanity.\n",
+    "summary": "Exploring web3 to connect and empower humanity.\n",
     "location": {
-      "countryCode": "US",
-      "address": "San Francisco, California, United States"
+      "city": "San Francisco",
+      "state": "California",
+      "countryCode": "US"
     },
     "profiles": [
       {
@@ -32,8 +33,8 @@
   },
   "work": [
     {
-      "name": "Eric Norman",
-      "position": "Product Engineer",
+      "name": "Product Engineer Consulting",
+      "position": "Principal",
       "startDate": "2018",
       "endDate": "",
       "highlights": [
@@ -57,18 +58,18 @@
       "location": "Slack"
     },
     {
-      "name": "Cinder Precision Cooker",
+      "name": "Cinder Precision Grill",
       "position": "Founder, CEO",
       "startDate": "June 2012",
       "endDate": "2017-12-31",
       "highlights": [
         "- Initial ideation and hardware prototyping. Early firmware including temperature control system. Design initial device and app interface. Factory selection. Manage R&D process, customer development.",
-        "- 3 Patents issued.",
+        "- 3 Patents issued",
         "- Y Combinator W'15",
-        "- Acquired."
+        "- Acquired by Desora"
       ],
-      "summary": "Acquired\nYC W15",
-      "url": "https://www.linkedin.com/company/palate-home/",
+      "summary": "Precision temperature cooking system.",
+      "url": "https://desora.co/",
       "location": "San Francisco Bay Area"
     },
     {
@@ -110,8 +111,7 @@
       "score": ""
     }
   ],
-  "awards": [
-  ],
+  "awards": [],
   "certificates": [
     {
       "name": "Project Management Professional (PMP)",
