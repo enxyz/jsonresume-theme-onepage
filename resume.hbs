@@ -26,12 +26,10 @@
             <img src="{{picture}}" alt="{{name}}" />
             <div class="middle">
               <h1 class="name">{{name}}</h1>
-              <h2 class="label">{{label}}</h2>
             </div>
           {{else}}
             <div>
               <h1 class="name">{{name}}</h1>
-              <h2 class="label">{{label}}</h2>
             </div>
           {{/if}}
 
@@ -59,26 +57,14 @@
               {{/if}}
             </div>
           {{/location}}
-
-          <div id="contact">
-            {{#if website}}
-              <div class="website">
-                <a href="{{website}}">{{website}}</a>
-              </div>
-            {{/if}}
+          <span id="contact">
             {{#if email}}
-              <div class="email">
+              <span class="email">
                 <span class="fa fa-envelope"></span>
                 <a href="mailto:{{email}}">{{email}}</a>
-              </div>
+              </span>
             {{/if}}
-            {{#if phone}}
-              <div class="phone">
-                <span class="fa fa-phone-square"></span>
-                {{phone}}
-              </div>
-            {{/if}}
-          </div>
+          </span>
 
           {{#if profiles.length}}
             <div id="profiles">
@@ -109,7 +95,6 @@
 
         {{#if summary}}
           <section class="section main-summary">
-            <h2 class="section-title">About</h2>
             <section>
               <p>{{{summary}}}</p>
             </section>
@@ -148,20 +133,13 @@
                 </div>
               </header>
               <div class="item">
-
-                {{#if position}}
-                  <div class="position">
-                    {{position}}
-                  </div>
-                {{/if}}
-                {{#if url}}
-                  <div class="url">
-                    <a href="{{url}}">{{url}}</a>
-                  </div>
-                {{/if}}
                 {{#if summary}}
                   <div class="summary">
-                    <p>{{{summary}}}</p>
+                    <p><b>{{position}}:</b> {{summary}}</p>
+                  </div>
+                {{else}}
+                  <div class="summary">
+                    <p>{{position}}</p>
                   </div>
                 {{/if}}
                 {{#if highlights.length}}
@@ -365,6 +343,28 @@
         </section>
       {{/if}}
 
+      {{#if resume.languages.length}}
+        <section class="section">
+          <h2 class="section-title">Languages</h2>
+          <section id="languages">
+            {{#each resume.languages}}
+              <div class="item">
+                {{#if language}}
+                  <div class="language">
+                    {{language}}
+                  </div>
+                {{/if}}
+                {{#if fluency}}
+                  <div class="fluency">
+                    <em>{{fluency}}</em>
+                  </div>
+                {{/if}}
+              </div>
+            {{/each}}
+          </section>
+        </section>
+      {{/if}}
+
       {{#if resume.skills.length}}
         <section class="section">
           <h2 class="section-title">Skills</h2>
@@ -388,28 +388,6 @@
                       <li>{{keyword}}</li>
                     {{/each}}
                   </ul>
-                {{/if}}
-              </div>
-            {{/each}}
-          </section>
-        </section>
-      {{/if}}
-
-      {{#if resume.languages.length}}
-        <section class="section">
-          <h2 class="section-title">Languages</h2>
-          <section id="languages">
-            {{#each resume.languages}}
-              <div class="item">
-                {{#if language}}
-                  <div class="language">
-                    {{language}}
-                  </div>
-                {{/if}}
-                {{#if fluency}}
-                  <div class="fluency">
-                    <em>{{fluency}}</em>
-                  </div>
                 {{/if}}
               </div>
             {{/each}}
